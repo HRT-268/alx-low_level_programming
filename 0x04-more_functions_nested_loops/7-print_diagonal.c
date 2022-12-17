@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - prints diagonal line n times.
- * @n: times of diagonal line is printed.
+ * @n: times diagonal line is printed.
  * Return: no return.
  */
 void print_diagonal(int n)
@@ -16,7 +16,7 @@ void print_diagonal(int n)
 			_putchar(' ');
 		}
 		_putchar(92);
-		if (1 < (n - 1))
+		if (i < (n - 1))
 			_putchar('\n');
 	}
 	_putchar('\n');
